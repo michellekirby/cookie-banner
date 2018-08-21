@@ -11,24 +11,22 @@
     -webkit-transition: all .2s ease-in-out;
 	  transition: all .2s ease-in-out;
     width: 100%;
-    text-align: center;
+    text-align: left;
     font-size: 12px;
     padding: 1em 2em;
     z-index: 502;
     background-color: #000;
-    color: #fff
+    color: #fff;
   }
   #cookieBanner p {
     width: 100%;
     padding-right: 0;
     margin: 0 0;
-    line-height: 1.5
-    color: #000;
-    font-size: 13px;
-    text-transform: uppercase;
+    line-height: 1.5;
   }
   #cookieBanner p a {
     color: #747474;
+    text-decoration: none;
   }
   #cookieBanner nav {
     width: 100%;
@@ -39,7 +37,6 @@
   #cookieBanner nav a {
 /*     display: inline-block; */
     width: 100%;
-    text-transform: none;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.42857143;
@@ -79,9 +76,7 @@
   }
    #cookieBanner nav {
     width: 16.66666667%;
-  }
-  #cookieBanner nav a {
-    width: 100%;
+    text-align: right;
   }
 }
   
